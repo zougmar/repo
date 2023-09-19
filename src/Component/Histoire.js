@@ -21,7 +21,7 @@ class Histoire extends Component {
 
     return (
       <div className="container py-5">
-        <div className="row pt-5">
+        <div className="row pt-4">
           <div className="worksingle-content col-lg-8 m-auto text-left justify-content-center">
             <h2 className="worksingle-heading h3 pb-3 light-300 typo-space-line">Your Family History</h2>
             {Data.map((histoire, index) => (
