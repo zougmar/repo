@@ -24,7 +24,7 @@ class HeadHistoire extends Component {
     
         <div className='container '>
           <section className="container banner-bg bg-light">
-                <div className="container my-3">                             
+                <div className="container my-4">                             
                         <img src="/public/images/father-and-son.jpeg" className="rounded img-fluid" alt='' />
                 </div>
                         <div className="banner-content col-lg-4">
