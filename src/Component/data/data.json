@@ -1,0 +1,122 @@
+
+  {"families": [
+    {
+      "id": 1,
+      "children": [
+        {
+          "id": 2,
+          "First_Name": "Joseph",
+          "Last_Name": "Smith",
+          "Age":"60",
+          "Description":"Philanthropic giver, helps tirelessly",
+          "Image":"/images/Joseph.jpeg",
+          "Partner": "Ava",
+          "children": [
+            {
+              "id": 11,
+              "First_Name": "Oliver",
+              "Last_Name": "Smith",
+              "Age":"45",
+              "Description":"Culinary artist, flavors delight",
+              "Image":"/images/Oliver.jpeg",
+              "Partner": "Emma",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "First_Name": "Alice",
+          "Last_Name": "Smith",
+          "Age":"43",
+          "Description":"Comedy king, delivers laughter",
+          "Image":"/images/Alica.jpeg",
+          "Partner": "Grace",
+          "children": [
+            {
+              "id": 5,
+              "First_Name": "Liam",
+              "Last_Name": "Johnson",
+              "Age":"40",
+              "Description":"Future astronaut, dreams galaxies",
+              "Image":"/images/Liam.jpeg",
+              "Partner": "Davis",
+              "children": [
+                {
+                  "id": 6,
+                  "First_Name": "Emma",
+                  "Last_Name": "Brown",
+                  "Age":"41",
+                  "Description":"Bookworm scholar, devours knowledge",
+                  "Image":"/images/Emma.jpeg",
+                  "Partner": "Sophia",
+                  "children": []
+                },
+                {
+                  "id": 7,
+                  "First_Name": "Noah",
+                  "Last_Name": "Brown",
+                  "Age":"42",
+                  "Description":"Music aficionado, plays instruments",
+                  "Image":"/images/Noah.jpeg",
+                  "Partner": "Isabella",
+                  "children": []
+                }
+              ]
+            }, {
+              "id": 11,
+              "First_Name": "Maoukli",
+              "Last_Name": "Smith",
+              "Age":"35",
+              "Description":"Culinary artist, flavors delight",
+              "Image":"/images/Oliver.jpeg",
+              "Partner": "Emma",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "First_Name": "Ethan",
+          "Last_Name": "Smith",
+          "Age":"43",
+          "Description":"Artistic soul, sketches masterpieces",
+          "Image":"/images/Ethan.jpeg",
+          "Partner": "Olivia",
+          "children": [
+            {
+              "id": 8,
+              "First_Name": "Karim",
+              "Last_Name": "Smith",
+              "Age":"30",
+              "Description":"Nature enthusiast, hikes trails",
+              "Image":"/images/Karim.jpeg",
+              "Partner": "Nowa",
+              "children": []
+            },
+            {
+              "id": 9,
+              "First_Name": "David",
+              "Last_Name": "Smith",
+              "Age":"27",
+              "Description":"Math prodigy, solves equations",
+              "Image":"/images/David.jpeg",
+              "Partner": "Nina",
+              "children": []
+            },
+            {
+              "id": 10,
+              "First_Name": "Aiden",
+              "Last_Name": "Smith",
+              "Age":"20",
+              "Description":"Athletic star, scores goals",
+              "Image":"/images/Aiden.png",
+              "Partner": "Mia",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
