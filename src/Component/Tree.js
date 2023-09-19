@@ -22,12 +22,11 @@ const treeContainerStyles = {
 
 const customPathFunc = ({ source, target }) => {
   const xOffset = 80; // Adjust the offset value as needed
-  const pathData = `
-    M ${source.x + xOffset} ${source.y} 
-    L ${source.x + xOffset} ${(source.y + target.y) / 1.8}
-    L ${target.x + xOffset} ${(source.y + target.y) / 1.8}
-    L ${target.x + xOffset} ${target.y}
-  `;
+  const yMidpoint = (source.y + target.y) / 1.8;
+  const pathData = `M ${source.x + xOffset} ${source.y} 
+                   L ${source.x + xOffset} ${yMidpoint} 
+                   ${target.x + xOffset} ${yMidpoint} 
+                   ${target.x + xOffset} ${target.y}`;
   return pathData;
 };
 
