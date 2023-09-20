@@ -4,74 +4,44 @@ import '../assets/css/boxicon.min.css';
 import '../assets/css/templatemo.css';
 import '../assets/css/custom.css';
 
-
-
+import data from '/Users/ZOUGMAR/Desktop/les cours S5/repo/src/Component/data/data.json';
 class TableListe extends Component {
   constructor(props) {
     super(props);
     this.state = {
       index: 0,
-      allData: [
-        {
-          name: 'Full name1',
-          info1: 'Senior1',
-          info2: 'Senior1',
-          info3: 'Senior1',
-          info4: 'Senior1',
-        },
-        {
-          name: 'Full name2',
-          info1: 'Senior2',
-          info2: 'Senior2',
-          info3: 'Senior2',
-          info4: 'Senior2',
-        },
-        {
-          name: 'Full name3',
-          info1: 'Senior3',
-          info2: 'Senior3',
-          info3: 'Senior3',
-          info4: 'Senior3',
-        },
-        {
-          name: 'Full name4',
-          info1: 'Senior4',
-          info2: 'Senior4',
-          info3: 'Senior4',
-          info4: 'Senior4',
-        },
-        {
-          name: 'Full name5',
-          info1: 'Senior5',
-          info2: 'Senior5',
-          info3: 'Senior5',
-          info4: 'Senior5',
-        },
-        {
-          name: 'Full name6',
-          info1: 'Senior6',
-          info2: 'Senior6',
-          info3: 'Senior6',
-          info4: 'Senior6',
-        },
-        {
-          name: 'Full name7',
-          info1: 'Senior7',
-          info2: 'Senior7',
-          info3: 'Senior7',
-          info4: 'Senior7',
-        },
-        {
-          name: 'Full name8',
-          info1: 'Senior8',
-          info2: 'Senior8',
-          info3: 'Senior8',
-          info4: 'Senior8',
-        },
-      ]
+      allData: []
     };
   }
+  componentDidMount() {
+    // Extract data for all persons from JSON file
+    const { families } = data;
+    const allData = [];
 
+    // Helper function to recursively collect data for all persons
+    const collectData = (family) => {
+      const { First_Name, Last_Name, Age, Description, Partner, children } = family;
+
+      allData.push({
+        name: `${First_Name} ${Last_Name}`,
+        info1: Age.toString(),
+        info2: Description,
+        info3: Partner,
+      });
+
+      if (children && children.length > 0) {
+        children.forEach((child) => {
+          collectData(child);
+        });
+      }
+    };
+
+    families.forEach((family) => {
+      collectData(family);
+    });
+
+    this.setState({ allData });
+  }
 
 
 

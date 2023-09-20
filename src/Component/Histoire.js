@@ -25,7 +25,7 @@ class Histoire extends Component {
           <div className="worksingle-content col-lg-8 m-auto text-left justify-content-center">
             <h2 className="worksingle-heading h3 pb-3 light-300 typo-space-line">Your Family History</h2>
             {Data.map((histoire, index) => (
-              <p key={index} className="worksingle-footer py-3 text-muted light-300">
+              <p key={index} className="worksingle-footer mt-4 py-3 text-muted light-300">
                 {histoire.data}
               </p>
             ))}

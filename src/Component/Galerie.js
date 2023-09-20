@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-
-import '../assets/css/bootstrap.css';
 import '../assets/css/bootstrap.min.css';
 import '../assets/css/boxicon.min.css';
-import '../assets/css/custom.css';
 import '../assets/css/templatemo.css';
-
-
+import '../assets/css/custom.css';
+import Photos from './Photos';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -32,7 +29,7 @@ class Galerie extends Component {
                 <div className="container">
                    <div className="row">
                       <div className="banner-img col-lg-4">
-                        <img src="/fronetnd/public/images/Images-cuate.svg" className="rounded img-fluid" alt="" />
+                        <img src="images/Images-cuate.svg" className="rounded img-fluid" alt="" />
                       </div>
                       <div className="banner-content col-lg-7">
                         <div className="d-flex flex-column justify-content-end h-100">
@@ -50,7 +47,7 @@ class Galerie extends Component {
               <div className="row">
                   <h2 className="h2 text-center col-12 py-5 semi-bold-600 typo-space-line-center ">All photos</h2>
               </div>
-         
+              <Photos/>
             </div>
         </div>
 
