@@ -16,7 +16,7 @@ class Photos extends Component {
       photos: [
         { url: '/public/images/Gallery/Ethan.jpeg', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt.', fullName: 'Ethan' },
         { url: '/public/images/Gallery/Nina.png', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt.', fullName: 'Nina' },
-        { url: 'images/gallery/Alica.jpeg', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt.', fullName: 'Alica' },
+        { url: '/Users/ZOUGMAR/Desktop/les cours S5/repo/public/images/Gallery/Alica.jpeg', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt.', fullName: 'Alica' },
         { url: 'images/gallery/woman4.png', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt.', fullName: 'Noah' },
         { url: 'images/gallery/enfant1.jpg', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt. ', fullName: 'Emma' },
         { url: 'images/gallery/enfant2.jpg', bio: 'Lorem ipsum dolor sit amet. Est voluptas necessitatibus sit deleniti fugit est veniam tempore sit commodi temporibus sit consequatur nesciunt.', fullName: 'Liam' },
