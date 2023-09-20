@@ -27,7 +27,7 @@ class Navbar extends Component {
                     </button>
 
                     <div className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                        <div className="flex-fill mx-xl-5 mb-2">
+                        <div className="flex-fill mx-xl-4 mb-2">
                             <ul className="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                                 <li className="nav-item">
                                     <Link className="nav-link btn-outline-primary rounded-pill px-3" to="/HeadHistoire">History</Link>

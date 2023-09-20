@@ -92,7 +92,18 @@
               "Description":"Nature enthusiast, hikes trails",
               "Image":"/images/Karim.jpeg",
               "Partner": "Nowa",
-              "children": []
+              "children": [
+                {
+                  "id": 9,
+                  "First_Name": "Nowfal",
+                  "Last_Name": "Smith",
+                  "Age":"14",
+                  "Description":"baby",
+                  "Image":"/images/Ethan.jpeg",
+                  "Partner": "?????",
+                  "children": []
+                }
+              ]
             },
             {
               "id": 9,
@@ -112,7 +123,27 @@
               "Description":"Athletic star, scores goals",
               "Image":"/images/Aiden.png",
               "Partner": "Mia",
-              "children": []
+              "children": [
+                {
+                  "id": 9,
+                  "First_Name": "Adil",
+                  "Last_Name": "Smith",
+                  "Age":"15",
+                  "Description":"baby",
+                  "Image":"/images/Ethan.jpeg",
+                  "Partner": "??????",
+                  "children": []
+                }, {
+                  "id": 9,
+                  "First_Name": "Carlos",
+                  "Last_Name": "Smith",
+                  "Age":"17",
+                  "Description":"baby",
+                  "Image":"/images/Ethan.jpeg",
+                  "Partner": "??????",
+                  "children": []
+                }
+              ]
             }
           ]
         }
