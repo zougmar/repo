@@ -13,55 +13,42 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="bg-secondary pt-4">
-    <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-lg-12 col-12 text-center mb-4">
-                <Link className="navbar-brand" to="/Arborescence">
-                    <i className='bx bx-buildings bx-sm text-light'></i>
-                    <span className="text-light h5">Family</span> <span className="text-light h5 semi-bold-600">Tree</span>
-                </Link>
-            </div>
-            <div className="col-lg-2 col-md-4 mb-4">
-                <div className="text-center">
-                    <Link className="h8 text-light light-300" to="/HeadHistoire">History</Link>
-                </div>
-                <div className="text-center">
-                    <Link className="h8 text-light light-300" to="/Arborescence">Family Tree</Link>
-                </div>
-                <div className="text-center">
-                    <Link className="h8 text-light light-300" to="/Liste">List</Link>
-                </div>
-                <div className="text-center">
-                    <Link className="h8 text-light light-300" to="/Galerie">Gallery</Link>
-                </div>
-                <div className="text-center">
-                    <Link className="h8 text-light light-300" to="/HeadContact">Contact</Link>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className="w-100 bg-primary py-0">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-4 col-sm-12 mx-auto my-3 text-center">
-                    <p className="text-light light-300">
-                        © Copyright 2023 Family Tree. All rights reserved.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+            <footer className="bg-secondary">
+                <div className="container">
+                    <div className="row py-2 align-items-center">
+                        <div className="col-lg-2 col-12">
+                            <Link className="navbar-brand" to="/Arborescence">
+                                <i className='bx bx-buildings fs-1 bx-sm text-light'></i>
+                                <span className="text-light h2">Family</span> <span className="text-light h2 semi-bold-600">Tree</span>
+                            </Link>
+                        </div>
 
-        
+                        <div className="col-lg-10 col-12 text-center">
+                            <div className="d-flex flex-column fs-4 align-items-center">
+                                <Link className="h8 pb-lg-3  text-light light-350 mb-2" to="/HeadHistoire">History</Link>
+                                <Link className="h8 pb-lg-3 text-light light-300 mb-2" to="/Arborescence">Family Tree</Link>
+                                <Link className="h8 pb-lg-3 text-light light-300 mb-2" to="/Liste">List</Link>
+                                <Link className="h8 pb-lg-3 text-light light-300 mb-2" to="/Galerie">Gallery</Link>
+                                <Link className="h8 pb-lg-3 text-light light-300" to="/HeadContact">Contact</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        
+                <div className="w-100 bg-primary py-2 text-center">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <p className="text-light light-300">
+                                    © Copyright 2023 Family Tree. All rights reserved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         );
     }
 }
 
 export default Footer;
-
-
-

@@ -16,11 +16,11 @@ class Navbar extends Component {
 
         return (
 
-            <nav id="main_nav" className="navbar navbar-expand-lg navbar-light bg-white shadow">
+            <nav id="main_nav" className="navbar navbar-expand-lg fs-5 navbar-light bg-white shadow">
                 <div className="container d-flex justify-content-between align-items-center">
                     <Link className="navbar-brand h1" to="/Arborescence">
-                        <i className='bx bx-buildings bx-sm text-dark'></i>
-                        <span className="text-dark h4">Family</span> <span className="text-primary h4">Tree</span>
+                        <i className='bx bx-buildings fs-4 bx-sm text-dark'></i>
+                        <span className="text-dark h2">Family</span> <span className="text-primary h2">Tree</span>
                     </Link>
                     <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

@@ -14,10 +14,9 @@ const containerStyles = {
 
 const treeContainerStyles = {
   width: "100%",
-  height: "90%",
+  height: "85%",
   backgroundColor: "#f0f0f0",
-  padding: "10px",
-  margin: "0px 0px 0px px", // Updated margin
+  margin: "10px 30px", // Updated margin
 };
 
 const customPathFunc = ({ source, target }) => {
@@ -165,7 +164,7 @@ export default function TreeComponent() {
             orientation="vertical"
             renderCustomNodeElement={renderCustomNodeElement}
             pathFunc={customPathFunc}
-            translate={{ x: 450, y: 5 }}
+            translate={{ x: 440, y: 15 }}
             zoom={0.8}
             scaleExtent={{ max: 1.2, min: 0.8 }}
             zoomable={false}

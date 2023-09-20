@@ -21,6 +21,27 @@
               "Image":"/images/Oliver.jpeg",
               "Partner": "Emma",
               "children": []
+            },
+            {
+              "id": 8,
+              "First_Name": "Karim",
+              "Last_Name": "Smith",
+              "Age":"30",
+              "Description":"Nature enthusiast, hikes trails",
+              "Image":"/images/Karim.jpeg",
+              "Partner": "Nowa",
+              "children": [
+                {
+                  "id": 9,
+                  "First_Name": "Nowfal",
+                  "Last_Name": "Smith",
+                  "Age":"14",
+                  "Description":"baby",
+                  "Image":"/images/Ethan.jpeg",
+                  "Partner": "?????",
+                  "children": []
+                }
+              ]
             }
           ]
         },
@@ -74,79 +95,8 @@
               "children": []
             }
           ]
-        },
-        {
-          "id": 4,
-          "First_Name": "Ethan",
-          "Last_Name": "Smith",
-          "Age":"43",
-          "Description":"Artistic soul, sketches masterpieces",
-          "Image":"/images/Ethan.jpeg",
-          "Partner": "Olivia",
-          "children": [
-            {
-              "id": 8,
-              "First_Name": "Karim",
-              "Last_Name": "Smith",
-              "Age":"30",
-              "Description":"Nature enthusiast, hikes trails",
-              "Image":"/images/Karim.jpeg",
-              "Partner": "Nowa",
-              "children": [
-                {
-                  "id": 9,
-                  "First_Name": "Nowfal",
-                  "Last_Name": "Smith",
-                  "Age":"14",
-                  "Description":"baby",
-                  "Image":"/images/Ethan.jpeg",
-                  "Partner": "?????",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": 9,
-              "First_Name": "David",
-              "Last_Name": "Smith",
-              "Age":"27",
-              "Description":"Math prodigy, solves equations",
-              "Image":"/images/David.jpeg",
-              "Partner": "Nina",
-              "children": []
-            },
-            {
-              "id": 10,
-              "First_Name": "Aiden",
-              "Last_Name": "Smith",
-              "Age":"20",
-              "Description":"Athletic star, scores goals",
-              "Image":"/images/Aiden.png",
-              "Partner": "Mia",
-              "children": [
-                {
-                  "id": 9,
-                  "First_Name": "Adil",
-                  "Last_Name": "Smith",
-                  "Age":"15",
-                  "Description":"baby",
-                  "Image":"/images/Ethan.jpeg",
-                  "Partner": "??????",
-                  "children": []
-                }, {
-                  "id": 9,
-                  "First_Name": "Carlos",
-                  "Last_Name": "Smith",
-                  "Age":"17",
-                  "Description":"baby",
-                  "Image":"/images/Ethan.jpeg",
-                  "Partner": "??????",
-                  "children": []
-                }
-              ]
-            }
-          ]
         }
+       
       ]
     }
   ]
